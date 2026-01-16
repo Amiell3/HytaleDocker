@@ -48,6 +48,6 @@ Para quem usa linux atomic como:
 Você precisa declarar a unidade Z na linha 9:
 
 ```
- -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container" \
+ -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container:Z" \
 
 ```
