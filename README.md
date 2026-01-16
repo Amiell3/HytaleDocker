@@ -5,7 +5,8 @@ Server em Docker para o Hytale com biding mount
 Não sou dev, sou apenas uma curiosa, então as instruções podem não estar da melhor forma ou
 melhor documentadas, apenas fiz do jeito que aprendi e conheço e
 
-NÃO RODA COM COPIAS PIRATAS, se quiser fazer isso, procure outro local :D
+NÃO RODA COM COPIAS PIRATAS,
+se quiser fazer isso, procure outro local :D
 
 ## Para Linux e Windows Customize a Montagem
 troque a linha 9:
