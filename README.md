@@ -15,7 +15,7 @@ troque a linha 9:
  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container" \
 
 ```
-para a pasta, já antecipadamente criada.
+para uma pasta no seu PC, já antecipadamente criada de rodar o docker run.
 
 ## Windows
 Instale o Docker e corra o comando no powershell:
