@@ -80,6 +80,7 @@ docker run \
 
 ## Linux (Exceto Atomic)
 
+```
 docker run \
   --name hytale-server \
   -e SERVER_IP="0.0.0.0" \
@@ -93,4 +94,4 @@ docker run \
   --restart unless-stopped \
   -t -i \
   deinfreu/hytale-server:experimental
-
+```
