@@ -1,5 +1,9 @@
 # Hytale Server:Docker
-Server em Docker para o Hytale com biding mount 
+Server em Docker para o Hytale com biding mount.
+\
+Tendo o biding mount configurado, você poderá manipular os arquivos do server de forma mais facil,\
+para instalação de mods, plugins e outras tarefas que exijam copiar, colar, substituir e atualizar\
+o server, sem necessidade de usar exclusivamente pelo terminal/powershell
 
 ## Obsservação:
 Não sou dev, sou apenas uma curiosa, então as instruções podem não estar da melhor forma ou
@@ -18,7 +22,7 @@ troque a linha 9:
 para uma pasta no seu PC, já antecipadamente criada de rodar o docker run.
 
 ## Windows
-Instale o Docker e corra o comando no powershell:
+Instale o Docker e corra o comando no powershell como administrador:
 
 
 ```
