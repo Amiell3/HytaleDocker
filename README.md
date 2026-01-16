@@ -12,14 +12,16 @@ melhor documentadas, apenas fiz do jeito que aprendi e conheço e
 NÃO RODA COM COPIAS PIRATAS,\
 se quiser fazer isso, procure outro local :D
 
-## Para Linux e Windows Customize a Montagem
+## Para Linux e Windows: Customize a Montagem
 troque a linha 9:
 
 ```
  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container" \
 
 ```
-para uma pasta no seu PC, já antecipadamente criada de rodar o docker run.
+para uma pasta no seu PC, já antecipadamente criada de rodar o docker run.\
+É desta forma que poderemos manipular os arquivos locais do server sem uso do\
+terminal/powershell
 
 ## Windows
 Instale o Docker e corra o comando no powershell como administrador:
