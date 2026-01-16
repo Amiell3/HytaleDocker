@@ -95,3 +95,9 @@ docker run \
   -t -i \
   deinfreu/hytale-server:experimental
 ```
+# Autenticação
+
+Para Autenticar sua conta como um server, siga as instruções oficiais:
+
+https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual
+
