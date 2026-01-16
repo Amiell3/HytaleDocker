@@ -23,7 +23,7 @@ docker run \
   -e DEBUG="FALSE" \
   -e TZ="America/Sao_Paulo" \
   -p 5520:5520/udp \
-  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container:Z" \
+  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container" \
   -v "/etc/machine-id:/etc/machine-id:ro" \
   --restart unless-stopped \
   -t -i \
@@ -49,5 +49,24 @@ Você precisa declarar a unidade Z na linha 9:
 
 ```
  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container:Z" \
+
+```
+
+Ficando assim:
+
+```
+docker run \
+  --name hytale-server \
+  -e SERVER_IP="0.0.0.0" \
+  -e SERVER_PORT="5520" \
+  -e PROD="FALSE" \
+  -e DEBUG="FALSE" \
+  -e TZ="America/Sao_Paulo" \
+  -p 5520:5520/udp \
+  -v "/MUDE/PARA_PASTA/DO_SEU/PC/:/home/container:Z" \
+  -v "/etc/machine-id:/etc/machine-id:ro" \
+  --restart unless-stopped \
+  -t -i \
+  deinfreu/hytale-server:experimental
 
 ```
