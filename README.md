@@ -103,7 +103,22 @@ docker run \
 ```
 # Autenticação
 
-Para Autenticar sua conta como um server, siga as instruções oficiais:
+Aqui já temos o container criado e o server rodando, na teoria está rodando, precisamos autenticar
+nossa copia original do jogo para ele ser um server, sendo assim entre no container:
+```
+docker attach hytale-server
+
+```
+Dentro do container rode comando de autenticação:
+```
+/auth login device
+```
+Siga as instruções na tela, ao finalizar para manter a autenticação funcionando automaticamente, execute no console:
+```
+
+```
+
+Qualquer duvida veja o FAQ oficial:
 
 https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual
 
